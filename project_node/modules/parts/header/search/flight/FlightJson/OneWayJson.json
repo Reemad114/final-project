@@ -1,0 +1,28 @@
+[
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "oneleaving",
+    "name" : "leaving",
+    "placeholder" : "Leaving From"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "onegoing",
+    "name" : "going",
+    "placeholder" : "Going To"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "onefromdate",
+    "name" : "fromdate"
+  },
+  {
+    "element" : "input",
+    "type" : "submit",
+    "id" : "onesearch",
+    "value" : "search"
+  }
+]

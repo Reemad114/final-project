@@ -1,0 +1,17 @@
+
+
+{  "Ttitle" :"The Best Brochoure",
+  "TclassN" : "contestTitle inline-block",
+  "imgsrc" : "./images/Travel-Brochure.png",
+  "imgclassN":"contestImg",
+  "imgalt" : "travel-brochure",
+  "CondTitle" : "Conditions:",
+  "CondDescrip" : "Create Your Own brouchure and upload it to here,the user with the biggest number of likes will be the winner.",
+  "AwardTitle" : "Awards:",
+  "a1" : "#1 - Double Flight Ticket To Paris",
+  "a2" : "#2 - Single Flight Ticket To Dubai",
+  "a3" : "#3 - 30% Coupon",
+  "href" : "/contest",
+  "btn" : "Get In Now",
+  "btnClassN" : "dark"
+}

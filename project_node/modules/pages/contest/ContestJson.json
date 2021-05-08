@@ -1,0 +1,138 @@
+[
+  {
+    "id" : "1",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "2",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "3",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "4",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "5",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "6",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "7",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  },
+  {
+    "id" : "8",
+    "classN" : "constcard col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+    "img" : {
+      "variant" : "top",
+      "className" : "BestDestImg mt-1",
+      "src" :"/images/Destinations/dubai.jpg"
+    },
+    "title" : "",
+    "titleclassN" : "",
+    "text" : "",
+    "textclassN" : "contestText",
+    "button" : {
+      "variant" : "dark",
+      "btn" : "like"
+    }
+  }
+]

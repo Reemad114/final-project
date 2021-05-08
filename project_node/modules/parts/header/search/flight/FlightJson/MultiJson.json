@@ -1,0 +1,48 @@
+[
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "multileaving",
+    "name" : "leaving",
+    "placeholder" : "Leaving From"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "multigoing",
+    "name" : "going",
+    "placeholder" : "Going To"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "multifromdate",
+    "name" : "fromdate"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "multileaving",
+    "name" : "leaving",
+    "placeholder" : "Leaving From"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "multigoing",
+    "name" : "going",
+    "placeholder" : "Going To"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "multifromdate",
+    "name" : "fromdate"
+  },
+  {
+    "element" : "input",
+    "type" : "submit",
+    "id" : "multisearch",
+    "value" : "search"
+  }
+]

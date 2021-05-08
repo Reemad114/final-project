@@ -1,0 +1,17 @@
+[
+  {
+   "pickup" : "Hogarth Road,London 01-04-2017,09:00 ",
+  "return" : "Hogarth Road,London 04-04-2017,09:00 ",
+  "renduration" :"3 days"
+  },
+  {
+    "pickup" : "Hogarth Road,London 05-05-2018,11:00 ",
+  "return" : "Hogarth Road,London 07-05-2018,09:00 ",
+  "renduration" :"2 days"
+  },
+  {
+    "pickup" : "Hogarth Road,London 01-04-2017,09:00 ",
+  "return" : "Hogarth Road,London 01-04-2017,09:00 ",
+  "renduration" :"3 days"
+  }
+]

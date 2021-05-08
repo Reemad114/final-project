@@ -1,0 +1,46 @@
+[
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "carpickup",
+    "name" : "pickup",
+    "placeholder" : "Pickup"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "carpickupt",
+    "name" : "pickupt"
+  },
+  {
+    "element" : "input",
+    "type" : "time",
+    "id" : "carpickupd",
+    "name" : "pickupd"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "cardropoff",
+    "name" : "dropoff",
+    "placeholder" : "Dropoff"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "cardropofft",
+    "name" : "dropofft"
+  },
+  {
+    "element" : "input",
+    "type" : "time",
+    "id" : "cardropoffd",
+    "name" : "dropoffd"
+  },
+  {
+    "element" : "input",
+    "type" : "submit",
+    "id" : "carsearch",
+    "value" : "search"
+  }
+]

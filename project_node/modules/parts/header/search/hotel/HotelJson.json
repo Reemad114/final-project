@@ -1,0 +1,34 @@
+[
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "room",
+    "name" : "room",
+    "placeholder" : "Rooms"
+  },
+  {
+    "element" : "input",
+    "type" : "text",
+    "id" : "hotelto",
+    "name" : "to",
+    "placeholder" : "Going to"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "hotelcheckin",
+    "name" : "checkin"
+  },
+  {
+    "element" : "input",
+    "type" : "date",
+    "id" : "hotelcheckout",
+    "name" : "checkout"
+  },
+  {
+    "element" : "input",
+    "type" : "submit",
+    "id" : "hotelsearch",
+    "value" : "search"
+  }
+]

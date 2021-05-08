@@ -1,0 +1,226 @@
+[
+  {
+    "key" : "dest",
+    "json" : [
+      {
+        "id" : "Dubai",
+        "classN" : "col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "className" : "BestDestImg mt-1",
+          "src" :"/images/Destinations/dubai.jpg"
+        },
+        "title" : "Dubai",
+        "text" : "The sea breeze on your face, sun-kissed warmth on your skin and a heart set on new adventures…can you feel it? Dubai has thrills for every traveller.",
+        "button" : {
+          "variant" : "dark",
+          "btn" : "Discover More"
+        }
+      },
+      {
+        "id" : "Paris",
+        "classN" : "col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "className" : "BestDestImg mt-1",
+          "src" :"/images/Destinations/paris.jpg"
+        },
+        "title" : "Paris",
+        "text" : "Nowhere else on earth makes the heart swoon like the mention of Paris. The city lures with its magnificent art, architecture, culture, and cuisine, but there’s also a quieter magic waiting to be explored: the quaint cobbled lanes, the sweet patisseries around the corner, and the cozy little bistros that beckon with a glass of Beaujolais. Get ready to make Paris your own.",
+        "button" : {
+                "variant" : "dark",
+                "btn" : "Discover More"
+        }
+      },
+      {
+        "id" : "Santorini",
+        "classN" : "col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3 mx-1",
+        "img" : {
+                  "variant" : "top",
+                  "className" : "BestDestImg mt-1",
+                  "src" :"/images/Destinations/santorini.jpg"
+                },
+        "title" : "Santorini",
+        "text" : "Incredible sunsets, pearly white buildings adorned with bougainvillea, blue-domed churches, and picturesque windmills make Santorini a sought-after destination. This Greek paradise attracts newlyweds and couples from around the globe eager to witness its famed sunsets of Oia, swim in hot springs, savor its cuisine, and indulge in luxurious resorts."
+                ,
+        "button" : {
+                  "variant" : "dark",
+                  "btn" : "Discover More"
+        }
+      },
+      {
+        "id" : "Bora",
+        "classN" : "col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "className" : "BestDestImg mt-1",
+          "src" :"/images/Destinations/bora.jpg"
+        },
+        "title" : "Bora Bora",
+        "text" :
+                  "Just-enhanced overwater bungalow suites,beachfront villa estates and underwater adventures welcome you at this sand-fringed idyll in the shadow of Bora Bora’s Mount Otemanu. Toast sunsets from your private plunge pool, marvel at the Tahitian night sky, or simply lose yourself in our lagoon, where the waters teem with exotic reef fish and colourful corals."
+                ,
+        "button" : {
+                  "variant" : "dark",
+                  "btn" : "Discover More"
+                }
+      },
+      {
+        "id" : "Maui",
+        "classN" : "col-sm-12 col-md-12 col-lg-4 col-xl-4 mt-3 mx-1",
+        "img" : {
+                "variant" : "top",
+                "className" : "BestDestImg mt-1 ",
+                "src" :"/images/Destinations/maui.jpg"
+        },
+        "title" : "Maui",
+        "text" :"Stark volcanic landscapes, emerald valleys, and black-sand beaches—Maui really brings the drama. Sure,there are plenty of resorts and hotels here, but Maui never loses itself to tourism. Instead, it remains grounded in lush nature,Hawaiian culture, and aloha spirit. And seeing the sun rise from the summit of Haleakala or driving the Road to Hana will make even the most jaded traveler think this is paradise found.",
+        "button" : {
+                  "variant" : "dark",
+                  "btn" : "Discover More"
+        }
+      }
+    ]
+  },
+  {
+    "key" : "discount",
+    "json" : [
+      {
+        "imgName" : "carousel-item active",
+        "imgsrc" : "/images/img1.jpg",
+        "imgalt" : "dis1",
+        "caption" : "Basel - Bern - Interlaken - Lucerne - Zurich by Train 10 nights from $1,920*",
+        "href" : "#",
+        "indicators" : {
+                      "target" : "#discounts",
+                      "slideto" : "0",
+                      "className" : "active"
+        }
+      },
+      {
+        "imgName" : "carousel-item",
+        "imgsrc" : "/images/Ski/img1.jpg",
+        "imgalt" : "dis2",
+        "caption" : "Deal Of The Month 7 nights incl.lift pass from €179",
+        "href" : "#",
+        "indicators" : {
+                      "target" : "#discounts",
+                      "slideto" : "1",
+                      "className" : ""
+        }
+      },
+      {
+      "imgName" : "carousel-item",
+      "imgsrc" : "/images/Hike/img3.jpg",
+      "imgalt" : "dis3",
+      "caption" : "9 days of hiking from 100$ ",
+      "href" : "#",
+      "indicators" : {
+                    "target" : "#discounts",
+                    "slideto" : "2",
+                    "className" : ""
+      }
+    },
+      {
+      "imgName" : "carousel-item",
+      "imgsrc" : "/images/Beach/img2.jpg",
+      "imgalt" : "dis4",
+      "caption" : "$399 Punta Cana 5-Star Suite w/Air, Meals & Drinks",
+      "href" : "#",
+      "indicators" : {
+                    "target" : "#discounts",
+                    "slideto" : "3",
+                    "className" : ""
+      }
+    }
+    ]
+  },
+  {
+    "key" : "feedback",
+    "json" : [
+      {
+        "id" : 1,
+        "userName" : "John",
+        "imgsrc" : "/images/users/img1.jpg",
+        "text" : "I am genius level 2 and I had ONLY very good experience with SkyCruise.com, it is fast, easy and I had good customer support"
+      },
+      {
+        "id" : 2,
+        "userName" : "Sandy",
+        "imgsrc" : "/images/users/img2.jpg",
+        "text" : "I use SkyCruise.com ALL The Time! It is the BEST! I have never had any problems. I have never been disappointed! Keep Up the Great Customer Service!"
+      },
+      {
+        "id" : 3,
+        "userName" : "Camila",
+        "imgsrc" : "/images/users/img3.jpg",
+        "text" :  "We use them a lot, we always cross check the hotel pictures by real customers through review sites as well and book with no problems so far!"
+      },
+      {
+        "id" : 4,
+        "userName" : "Sarah",
+        "imgsrc" : "/images/users/img4.jpg",
+        "text" :  "I stayed in 3 boutique hotels recommended by SkyCruise.com - all were amazing! My friend has used this site numerous times so I trusted her and chose them. They certainly made my trip the best!"
+      },
+      {
+        "id" : 5,
+        "userName" : "Andrew",
+        "imgsrc" : "/images/users/img5.jpg",
+        "text" : "I use SkyCruise.com for all room reservation - great policy - free cancellation all time, many options to choose from and fast booking service. Highly recommend"
+      },
+      {
+        "id" : 6,
+        "userName" : "Joelle",
+        "imgsrc" : "/images/users/img6.jpg",
+        "text" : "I often use it to plan my stay in advice. It has great prices and lots of housing to choose from. Definitely recommend it to frequent travelers."
+      }
+    ]
+  },
+  {
+    "key" : "ideas",
+    "json" : [
+      {
+        "id" : "family",
+        "classN" : "col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "src" :"/images/family.jpg"
+        },
+        "title" : "",
+        "text" : "The greatest legacy we can leave our children is happy memories",
+        "button" : {
+          "variant" : "dark",
+          "btn" : "Family Trips"
+        }
+      },
+      {
+        "id" : "friends",
+        "classN" : "col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "src" :"/images/friends.jpg"
+        },
+        "title" : "",
+        "text" : "Travelling in the company of those we love is home in motion",
+        "button" : {
+          "variant" : "dark",
+          "btn" : "Friends Trips"
+        }
+      },
+      {
+        "id" : "couples",
+        "classN" : "col-sm-12 col-md-12 col-lg-3 col-xl-3 mt-3 mx-1",
+        "img" : {
+          "variant" : "top",
+          "src" :"/images/couple.jpg"
+        },
+        "title" : "",
+        "text" : "Happiness is, planning a trip to somewhere new, with someone you love",
+        "button" : {
+          "variant" : "dark",
+          "btn" : "Couples Trips"
+        }
+      }
+    ]
+  }
+]

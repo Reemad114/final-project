@@ -1,0 +1,18 @@
+[
+  {
+    "id" : "flight",
+    "icon" : "fas fa-plane-departure",
+    "title" : "Flights"
+  },
+  {
+    "id" : "hotel",
+    "icon" : "fas fa-hotel",
+    "title" : "Hotels"
+  },
+  {
+    "id" : "car",
+    "icon" : "fas fa-car",
+    "title" : "Car Rental"
+
+  }
+]
