@@ -6,7 +6,7 @@ const feedback = require('./HomeJson/FeedbackJson.json')
 const header = require('../../parts/header/HeaderController.js')
 const footer = require('../../parts/footer/FooterController.js')
 
-let Contest = () =>{
+let Contest = () => {
   return(contest)
 }
 let Destinations = () => {
