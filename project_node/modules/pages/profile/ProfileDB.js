@@ -55,8 +55,8 @@ let Content = () => {
                       +"}" )
 }
 
-let ProfilePageJson = () => {
-  return JSON.parse('{"Header":'+JSON.stringify(header.HeaderJson())+',"Content":'+JSON.stringify(Content())
+let ProfilePageJson = async() => {
+  return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+',"Content":'+JSON.stringify(Content())
                     +',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
 }
 module.exports.ProfileDB = () => {

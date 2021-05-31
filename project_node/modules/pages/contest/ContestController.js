@@ -17,6 +17,6 @@
 // }
 const contestdb = require('./ContestDb.js')
 
-module.exports.ContestPage = (req, res) => {
-  res.json(contestdb.ContestDB());
+module.exports.ContestPage = async(req, res) => {
+  res.json(await contestdb.ContestDB());
 }

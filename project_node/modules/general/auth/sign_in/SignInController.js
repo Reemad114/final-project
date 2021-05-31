@@ -4,8 +4,8 @@ var signup = require('../sign_up/SignUpController.js')
 const profile = require('../../../pages/profile/ProfileController.js')
 const signindb = require('./SignInDB.js')
 
-let SignInPage = (req, res) => {
-  res.json(signindb.signindbPageJson());
+let SignInPage = async(req, res) => {
+  res.json(await signindb.signindbPageJson());
 }
 router.get('/', SignInPage)
 router.get('/profile', profile.ProfilePage)
