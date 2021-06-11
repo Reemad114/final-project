@@ -7,5 +7,5 @@ let Content = () => {
 }
 module.exports.signindbPageJson = async() => {
   return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+',"Content":'+JSON.stringify(Content())
-                    +',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
+                    +',"Footer":'+JSON.stringify(await footer.FooterJson())+"}" )
 }

@@ -10,5 +10,5 @@ let Cards = () => {
 module.exports.ContestDB= async() => {
   return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+
                     ',"Content":'+JSON.stringify(await Cards())+
-                    ',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
+                    ',"Footer":'+JSON.stringify(await footer.FooterJson())+"}" )
 }

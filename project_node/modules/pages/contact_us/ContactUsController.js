@@ -1,18 +1,24 @@
-const contactJson = require('./ContactUsJson.json')
-const header = require('../../parts/header/HeaderController.js')
-const footer = require('../../parts/footer/FooterController.js')
+// const contactJson = require('./ContactUsJson.json')
+// const header = require('../../parts/header/HeaderController.js')
+// const footer = require('../../parts/footer/FooterController.js')
 
 
 
-let Form = () => {
-  return(contactJson)
-}
+// let Form = () => {
+//   return(contactJson)
+// }
 
-let ContactUsPageJson = async() => {
-  return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+
-                    ',"Content":'+JSON.stringify(Form())+
-                    ',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
-}
+// let ContactUsPageJson = async() => {
+//   return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+
+//                     ',"Content":'+JSON.stringify(Form())+
+//                     ',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
+// }
+// module.exports.ContactUsPage = async(req, res) => {
+//   res.json(await ContactUsPageJson());
+// }
+
+const contactdb = require('./ContactUsDB.js')
+
 module.exports.ContactUsPage = async(req, res) => {
-  res.json(await ContactUsPageJson());
+  res.json(await contactdb.ContactUsPageJson());
 }

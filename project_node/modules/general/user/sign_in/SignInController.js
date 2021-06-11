@@ -1,14 +1,13 @@
 var express = require('express')
 var router = express.Router()
-var signup = require('../sign_up/SignUpController.js')
 const profile = require('../../../pages/profile/ProfileController.js')
 const signindb = require('./SignInDB.js')
 
-let SignInPage = async(req, res) => {
+module.exports.SignInPage = async(req, res) => {
   res.json(await signindb.signindbPageJson());
 }
-router.get('/', SignInPage)
-router.get('/profile', profile.ProfilePage)
-router.use('/newaccount', signup)
+// router.get('/', SignInPage)
+// router.get('/profile', profile.ProfilePage)
 
-module.exports = router
+
+// module.exports = router
