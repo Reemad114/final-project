@@ -13,7 +13,7 @@ const port = 8000;
 
 
 app.get('/home', home.HomePage)
-app.get('/contest', contest.ContestPage)
+app.use('/contest', contest.ContestPage)
 app.get('/contactus', contact.ContactUsPage)
 app.get('/aboutus', about.About)
 app.use('/book', book)
