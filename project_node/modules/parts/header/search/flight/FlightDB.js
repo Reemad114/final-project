@@ -1,29 +1,23 @@
 const tabs = require('./FlightJson/FlightTabsJson.json')
-const multi = require('./FlightJson/MultiJson.json')
-const oneway = require('./FlightJson/OneWayJson.json')
-const round = require('./FlightJson/RoundJson.json')
+const DB = require('../../../../../database')
 
-let Multi = () => {
-  return(multi)
+module.exports.GetFlightDetails = (field1, val1, field2, val2, field3, val3) => {
+  let DbQuery = "SELECT *" + 
+                " FROM `flight` " + 
+                " WHERE " + field1 + " LIKE '"+ val1 +"' " + 
+                " AND " + field2 + " LIKE '"+ val2 +"' " + 
+                " AND " + field3 + " LIKE '"+ val3 +"';";
+  let DbRes = DB.DBquery(DbQuery);
+  return DbRes;
 }
-let Oneway = () => {
-  return(oneway)
-}
-let Round = () => {
-  return(round)
-}
-let Content = () => {
-  return JSON.parse('{"Multi":'+JSON.stringify(Multi())+',"Oneway":'+JSON.stringify(Oneway())
-                    +',"Round":'+JSON.stringify(Round())+"}" )
-}
+
 let Tabs = () => {
   return(tabs)
 }
 
-let Flight = () => {
-  return JSON.parse('{"Tabs":'+JSON.stringify(Tabs())
-                      +',"Content":'+JSON.stringify(Content())+"}" )
+let Flight = async() => {
+  return JSON.parse('{"Tabs":'+JSON.stringify(Tabs())+"}" )
 }
-module.exports.FlightDB = () => {
-  return (Flight());
+module.exports.FlightDB = async() => {
+  return (await Flight());
 }

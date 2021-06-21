@@ -57,7 +57,7 @@ let Content = () => {
 
 let ProfilePageJson = async() => {
   return JSON.parse('{"Header":'+JSON.stringify(await header.HeaderJson())+',"Content":'+JSON.stringify(Content())
-                    +',"Footer":'+JSON.stringify(footer.FooterJson())+"}" )
+                    +',"Footer":'+JSON.stringify(await footer.FooterJson())+"}" )
 }
 module.exports.ProfileDB = () => {
   return ProfilePageJson()

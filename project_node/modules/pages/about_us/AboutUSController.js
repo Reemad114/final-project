@@ -1,6 +1,5 @@
-const aboutJson = require('./AboutUsJson.json')
+const aboutdb = require('./AboutUSDB')
 
-module.exports.About = (req, res) => {
-  res.json(aboutJson);
-  console.log(aboutJson);
+module.exports.AboutPage = async(req, res) => {
+  res.json(await aboutdb.AboutPage());
 }

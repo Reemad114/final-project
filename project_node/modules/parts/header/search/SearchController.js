@@ -9,17 +9,12 @@ let Maintabitems = () => {
 let Tabcontents = () => {
   return(tabcontents)
 }
-let SearchJson = () => {
+let SearchJson = async() => {
   return JSON.parse('{"Maintabitems":'+JSON.stringify(Maintabitems())
-                    +',"Flight":'+JSON.stringify(flight.FlightJson())
-                    +',"Hotel":'+JSON.stringify(hotel.HotelJson())
-                    +',"Car":'+JSON.stringify(car.CarJson())+"}" )
+                    +',"Flight":'+JSON.stringify(await flight.FlightJson())+"}" )
 }
-module.exports.Search = () => {
-  return(SearchJson());
+module.exports.Search = async() => {
+  return(await SearchJson());
 }
 
-// const searchdb = require('./SearchDB.js')
-// module.exports.Search = () => {
-//   return(searchdb.SearchDB());
-// }
+
