@@ -18,11 +18,11 @@ const port = 8000;
 
 
 app.get('/home', home.HomePage)
-app.use('/contest', contest.ContestPage)
+app.get('/contest', contest.ContestPage)
 app.get('/contactus', contact.ContactUsPage)
 app.get('/firstdest', firsdest.FirstPage)
 app.get('/aboutus', about.AboutPage)
-app.use('/book', book)
+app.use('/book', book.BookPage)
 app.use('/users', users)
 app.use('/flight', flight)
 
